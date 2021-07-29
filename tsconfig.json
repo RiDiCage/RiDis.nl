@@ -1,0 +1,15 @@
+/*
+	Copyright (C) 2009 - 2021 RiDi Cage Productions, Inc.
+	Amersfoort, Utrecht, The Netherlands
+
+	Licensed under MIT ( https://www.ridis.nl/index.php?p=license )
+*/
+
+{
+	"compilerOptions":
+	{
+		"target": "esNext",
+		"watch": true,
+		"outDir": "./js"
+	}
+}
