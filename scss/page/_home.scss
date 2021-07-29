@@ -1,0 +1,36 @@
+.video-banner {
+	@include margin(0rem,0rem,100%);
+	height: calc(100vh - 9rem);
+
+	#video {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%; 
+		min-height: 100vh;
+	}
+}
+
+.v1 {
+	@include block(calc(50vh - 4.5rem), black)
+}
+
+.v2 {
+	@include block(calc(50vh - 4.5rem), $col5)
+}
+
+.v3 {
+	@include block(calc(50vh - 4.5rem), $col3)
+}
+
+.v4 {
+	@include block(calc(50vh - 4.5rem), $col4)
+}
+
+.v5 {
+	@include block(calc(50vh - 4.5rem), $col2)
+}
+
+.v6 {
+	@include block(calc(50vh - 4.5rem), $col1)
+}

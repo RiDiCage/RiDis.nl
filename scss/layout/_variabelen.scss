@@ -1,0 +1,51 @@
+// Fonts Styles
+$normalfont: 'Arial';
+
+// Main Colors
+$main1:     rgba(255,200,200,1);
+$main2:     rgba(40,40,40,1);
+
+// Text Colors
+$text1:     rgba(51,51,51,1);
+$text2:     rgba(80,80,80,1);
+$text3:     rgba(200,200,200,1);
+
+// Theme Colors
+$col1:      rgba(255,0,0,1);
+$col2:      rgba(255,150,0,1);
+$col3:      rgba(255,255,0,1);
+$col4:      rgba(105,202,255,1);
+$col5:      rgba(210,176,255,1);
+
+// Darken or Lighten Theme Colors
+$light:     lighten($col3,15%);
+$dark:      darken($col3,15%);
+$lighter:   lighten($col3,30%);
+$darker:    darken($col3,30%);
+
+// Alpha Blacks
+$black1: rgba(0,0,0,.1);
+$black2: rgba(0,0,0,.2);
+$black3: rgba(0,0,0,.3);
+$black4: rgba(0,0,0,.4);
+$black5: rgba(0,0,0,.5);
+$black6: rgba(0,0,0,.6);
+$black7: rgba(0,0,0,.7);
+$black8: rgba(0,0,0,.8);
+$black9: rgba(0,0,0,.9);
+$black:  rgba(0,0,0,1);
+
+// Alpha Whites
+$white1: rgba(255,255,255,.1);
+$white2: rgba(255,255,255,.2);
+$white3: rgba(255,255,255,.3);
+$white4: rgba(255,255,255,.4);
+$white5: rgba(255,255,255,.5);
+$white6: rgba(255,255,255,.6);
+$white7: rgba(255,255,255,.7);
+$white8: rgba(255,255,255,.8);
+$white9: rgba(255,255,255,.9);
+$white:  rgba(255,255,255,1);
+
+// Alpha
+$alpha: rgba(0,0,0,0);
